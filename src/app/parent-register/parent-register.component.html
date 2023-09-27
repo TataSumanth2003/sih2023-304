@@ -1,0 +1,101 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    PARENT REGISTRATION
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form class="form">
+            <h2>PARENT REGISTRATION FORM</h2>
+            <div class="content">
+                <label for="udid">CHILD UDID</label>
+                <div class="combine">
+                <input type="text" id="udid" name="udid" placeholder="CHILD UDID" [(ngModel)]="udid" required>
+                <button type="button" [class]="validate" (click)="valid()">{{check}}</button>
+                </div>
+                <p *ngIf="hide">ENTER THE VALID UDID</p>
+            </div>
+            <div class="matter">
+                <label for="pname">PARENT NAME</label>
+                <input type="text" id="pname" name="pname" placeholder="PARENT NAME" required>
+            </div>
+            <div class="matter">
+                <label for="name">CHILD NAME</label>
+                <input type="text" id="name" name="name" placeholder="CHILD NAME" required>
+            </div>
+            <div class="matter">
+                <label for="pemail">PARENT EMAIL</label>
+                <input type="text" id="pemail" name="pemail" placeholder="PARENT EMAIL" required>
+            </div>
+            <div class="comb merge">
+              <div class="matter">
+                <label for="password">PASSWORD</label>
+                <input type="text" id="password" name="password" placeholder="PASSWORD" required>
+              </div>
+              <div class="second matter">
+                <label for="cpassword">CONFIRM PASSWORD</label>
+                <input type="text" id="cpassword" name="cpassword" placeholder="CONFIRM PASSWORD" required>
+              </div>
+          </div>
+            <div class="matter">
+                <label for="pmobile">PARENT MOBILE NO</label>
+                <input type="text" id="pmobile" name="pmobile" placeholder="PARENT MOBILE NUMBER" required>
+            </div>
+            <div class="comb">
+                <div class="matter">
+                  <label for="age">CHILD AGE</label>
+                  <input type="text" id="age" name="age" placeholder="CHILD AGE" required>
+                </div>
+                <div class="second matter">
+                    <label  for="qualification">EDUCATIONAL QUALIFICATION</label>
+                    <select name="qualification" id="qualification" class="form-control1">
+                        <option value="B TECH">B TECH</option>
+                        <option value="M TECH">M TECH</option>
+                        <option value="DEGREE">DEGREE</option>
+                        <option value="MCA">MCA</option>
+                        <option value="PHD">PHD</option>
+                        <option value="" selected disabled>SELECT FROM BELOW</option>
+                    </select>
+                </div>
+            </div>
+            <div class="matter">
+                <label for="address">ADDRESS</label>
+                <input type="text" id="address" name="address" placeholder="ADDRESS" required>
+            </div>
+            <div class="comb">
+                <div class="matter">
+                    <label  for="skills">SKILLS</label>
+                    <select name="skills" id="skills" class="form-control2">
+                      <option value="">COMMUNICATION SKILLS</option>
+                      <option value="">LEADERSHIP SKILLS</option>
+                      <option value="">TYPING SKILLS</option>
+                      <option value="">PRESENTATION SKILLS</option>
+                      <option value="">OTHER SKILLS</option>
+                      <option value="" selected disabled>SELECT FROM BELOW</option>
+                    </select>
+                </div>
+                <div class="second matter">
+                    <label  for="category">DISABILITY CATEGORY</label>
+                    <select name="category" id="category" class="form-control2">
+                      <option value="A">A</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                      <option value="D">D</option>
+                      <option value="E">E</option>
+                      <option value="" selected disabled>SELECT FROM BELOW</option>
+                    </select>
+                </div>
+            </div>
+            <button class="submit btn-success">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>

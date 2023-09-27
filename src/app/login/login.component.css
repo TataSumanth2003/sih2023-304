@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.modal{
+    margin:20px 400px;
+}
+.modal-header{
+    border-bottom: none;
+    padding:0px
+}
+.modal-header .close{
+    padding: 0px;
+    margin:0px;
+    padding-right:15px;
+    padding-top:8px;
+
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 25px;
+    word-spacing: 8px;
+    /* text-decoration: underline; */
+    /* line-height: 100px; */
+}
+.modal-content{
+    width:400px;
+}
+.form {
+    /* border:5px solid black; */
+    width: 400px;
+    margin: 0 auto;
+    padding:20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color:rgb(57, 109, 134)
+  }
+  
+  input[type="text"] {
+    width: 65%;
+    padding: 5px;
+    border-radius: 0.3em;
+    height:38px;
+  }
+  

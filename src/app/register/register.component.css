@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.modal{
+    margin:20px 400px;
+}
+.modal-header{
+    border-bottom: none;
+    padding:0px
+}
+.modal-header .close{
+    padding: 0px;
+    margin:0px;
+    padding-right:15px;
+    padding-top:8px;
+
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 25px;
+    word-spacing: 8px;
+    /* text-decoration: underline; */
+    /* line-height: 100px; */
+}
+.modal-content{
+    width:700px;
+}
+.form {
+    /* border:5px solid black; */
+    width: 700px;
+    margin: 0 auto;
+    padding:20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color:rgb(57, 109, 134)
+  }
+  
+  input[type="text"] {
+    width: 65%;
+    padding: 5px;
+    border-radius: 0.3em;
+    height:38px;
+  }
+  .combine{
+    display:flex;
+  }
+  .combine .validate{
+    padding:0px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgb(207, 127, 7);
+    color:white;
+    margin-left: 25px;
+  }
+  .combine .validate:hover{
+    background-color: rgb(164, 88, 11);
+  }
+  .combine .verified{
+    padding:0px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgb(248, 247, 244);
+    color:rgb(3, 234, 42);
+    margin-left: 25px;
+  }
+  .content{
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .content p{
+    color:red;
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  .matter{
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .matter   input[type="text"] {
+    width: 88%;
+    padding: 5px;
+    border-radius: 0.3em;
+    height:38px;
+  }
+  .comb{
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .comb .second{
+    margin-left: 15px;
+  }
+  .form-control1 {
+    border: 2px solid rgb(111, 109, 109);
+    width: 308px;
+    height: 38px;
+    border-radius: 0.3em;
+
+  }
+  .comb .matter input[type="text"]{
+    width:100%;
+  }
+  .form-control2 {
+    border: 2px solid rgb(111, 109, 109);
+    width: 252px;
+    height: 38px;
+    border-radius: 0.3em;
+  }
+  .merge .matter input[type="text"]{
+    width:251px;
+  }
+  .submit{
+    display:grid;
+    margin-top: 30px;
+    padding:0px 20px;
+    border-radius:10px;
+    font-size: 20px;
+    color:azure;
+    /* text-align: center; */
+    margin-left:280px;
+
+  }
+

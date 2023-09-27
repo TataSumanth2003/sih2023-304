@@ -1,0 +1,63 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    COMPANY REGISTRATION
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form class="form">
+            <h2>COMPANY REGISTRATION FORM</h2>
+            <div class="content">
+                <label for="mca">COMPANY NAME AS PER MCA REGISTRATION</label>
+                <div class="combine">
+                <input type="text" id="mca" name="mca" placeholder="COMPANY NAME AS PER MCA REGISTRATION" required>
+                <button type="button" class="validate">Validate</button>
+                </div>
+            </div>
+            <div class="matter">
+                <label for="cname">COMPANY NAME</label>
+                <input type="text" id="cname" name="cname" placeholder="COMPANY NAME" required>
+            </div>
+            <div class="matter">
+                <label for="role">AGENT ROLE</label>
+                <input type="text" id="role" name="role" placeholder="AGENT ROLE" required>
+            </div>
+            <div class="matter">
+                <label for="cemail">COMPANY EMAIL</label>
+                <input type="text" id="cemail" name="cemail" placeholder="COMPANY EMAIL" required>
+            </div>
+            <div class="comb merge">
+              <div class="matter">
+                <label for="password">PASSWORD</label>
+                <input type="text" id="password" name="password" placeholder="PASSWORD" required>
+              </div>
+              <div class="second matter">
+                <label for="cpassword">CONFIRM PASSWORD</label>
+                <input type="text" id="cpassword" name="cpassword" placeholder="CONFIRM PASSWORD" required>
+              </div>
+            </div>
+            <div class="matter">
+                <label for="clink">COMPANY OFFICIAL WEBSITE LINK</label>
+                <input type="text" id="clink" name="clink" placeholder="COMPANY OFFICIAL WEBSITE LINK" required>
+            </div>
+            <div class="matter">
+                <label for="contact">CONTACT NUMBER</label>
+                <input type="text" id="contact" name="contact" placeholder="CONTACT NUMBER" required>
+            </div>
+            <div class="matter">
+                <label for="address">ADDRESS ( HEAD OFFICE )</label>
+                <input type="text" id="address" name="address" placeholder="ADDRESS" required>
+            </div>
+            <button class="submit btn-success">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
